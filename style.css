@@ -1,0 +1,310 @@
+/************************** Basic-css *************************/
+/**************************************************************/
+body{
+	margin: 0;
+	font-family: tahoma;
+	z-index: 1;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+/************************* Basic-css end ***********************/
+/***************************************************************/
+/***************************************************************/
+
+
+/************************* Re-usable-css ***********************/
+/***************************************************************/
+.re-background{
+	background: #3E2BC5 !important;
+}
+.container{
+	width: 80% !important;
+}
+/*********************** Re-usable-css end *********************/
+/***************************************************************/
+/***************************************************************/
+
+
+/************************** Navbar-css ************************/
+/**************************************************************/
+.navbar ul li a{
+	font-size: 14px;
+}
+.navbar .button{
+	font-size: 14px;
+	padding: 13px 40px;
+	background: linear-gradient(to right, #16A2E8 0%, #12D8FA 51%, #16A2E8 100%);
+	transition: .5s;
+}
+.navbar .button:hover{
+	background: linear-gradient(to right, #16A2E8 100%, #12D8FA 51%, #16A2E8 0%);
+}
+/************************ Media query ***********************/
+/************************************************************/
+@media all and (max-width: 526px){
+	.navbar-brand{
+		margin-right: -150px;
+	}
+}
+/*********************** Navbar-css end ***********************/
+/**************************************************************/
+/**************************************************************/
+
+
+/************************ Header-text-css **********************/
+/***************************************************************/
+#particles-js {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+}
+.header-text {
+	padding-top: 120px!important;
+	padding-bottom: 150px 0 !important;
+}
+.header-text h1{
+	line-height: 4.3rem;
+}
+.header-text p{
+	word-spacing: 2px;
+}
+.header-text a{
+	font-size: 14px;
+	padding: 13px 40px;
+	background: linear-gradient(to right, #16A2E8 0%, #12D8FA 51%, #16A2E8 100%)!important;
+	cursor: pointer;
+}
+.header-text a:hover{
+	background: linear-gradient(to right, #16A2E8 100%, #12D8FA 51%, #16A2E8 0%)!important;
+}
+
+/*********************** Media query **********************/
+/**********************************************************/
+@media all and (max-width: 768px){
+	.header-text h1{
+		line-height: 2.3rem;
+	}
+	.header-text {
+		padding: 100px 0 !important;
+	}
+	.header-text a{
+		margin-bottom: 15px;
+	}
+}
+/******************* Header-text-css end *****************/
+/*********************************************************/
+/*********************************************************/
+
+
+/************************ Brand css **********************/
+/*********************************************************/
+.owl-carousel {
+	border-radius: 5px !important;
+}
+.brandd{
+	background: #3221AD !important;
+}
+
+/******************* Brand css end ***********************/
+/*********************************************************/
+/*********************************************************/
+
+/************************ About css **********************/
+/*********************************************************/
+.about a{
+	font-size: 14px;
+	padding: 13px 40px;
+	background: linear-gradient(to right, #16A2E8 0%, #12D8FA 51%, #16A2E8 100%)!important;
+	cursor: pointer;
+}
+@media all and (max-width: 526px){
+	.about a{
+		text-align: center;
+		margin-left: 55px;
+	}
+	.about img{
+		margin-top: 35px;
+	}
+}
+/******************* About css end ***********************/
+/*********************************************************/
+/*********************************************************/
+
+
+/************************ Why css ***********************/
+/********************************************************/
+.why{
+	overflow: hidden;
+}
+/******************* Why css end *************************/
+/*********************************************************/
+/*********************************************************/
+
+
+/************************ Road css **********************/
+/********************************************************/
+.roadmap{}
+.roadmap:before {
+	content: "";
+	background: #ddd;
+	display: block;
+	height: 3px;
+	margin: 20px 0;
+}
+.roadmap_color:before {
+	content: "";
+	background: #16A2E8;
+	display: block;
+	height: 3px;
+	margin: 20px 0;
+}
+.roadmap span {
+	border: 3px solid #16A2E8;
+	width: 20px;
+	height: 20px;
+	border-radius: 30px;
+	display: block;
+	background: #fff;
+	position: absolute;
+	top: 12px;
+	left: 44%;
+}
+.roadmap h5{
+	margin-top: 40px;
+}
+/******************* Road css end ***********************/
+/********************************************************/
+/********************************************************/
+
+/************************ document css **********************/
+/************************************************************/
+
+@media all and (max-width: 992px){
+	.document-p{
+		display: none !important;
+	}
+}
+@media all and (max-width: 768px){
+	.custom-m-doc{
+		margin-top: 35px !important;
+	}
+}
+/******************* document css end ***********************/
+/************************************************************/
+/************************************************************/
+
+/************************ Creative css ***********************/
+/*************************************************************/
+.creative a{
+	height: auto;
+	width: 27px;
+	display: inline-block;
+	background: red;
+	line-height: 1.6rem;
+	border-radius: 50%;
+	text-align: center;
+}
+.creative a:hover{
+	background: white !important;
+	transition: .9s;
+}
+.creative a:hover i{
+	color: black !important;
+}
+/********************* Creative css end*************************/
+/***************************************************************/
+/***************************************************************/
+
+
+/************************* Mobile css *************************/
+/**************************************************************/
+.mobile a{
+	font-size: 14px;
+	padding: 13px 40px;
+	background: linear-gradient(to right, #16A2E8 0%, #12D8FA 51%, #16A2E8 100%)!important;
+	cursor: pointer;
+	transition: 1s;
+}
+.mobile a:hover{
+	background: white !important;
+	color: black !important;
+}
+@media all and (max-width: 500px){
+	.mobile-img-none{
+		display: none !important;
+		margin: 0;
+		padding: 0;
+	}
+	.custom-mm{
+		margin-top: 0 !important;
+	}
+}
+/********************* Mobile css end***************************/
+/***************************************************************/
+/***************************************************************/
+
+
+/********************* Contanct css ****************************/
+/***************************************************************/
+.contact a{
+	font-size: 14px;
+	padding: 13px 40px;
+	background: linear-gradient(to right, #16A2E8 0%, #12D8FA 51%, #16A2E8 100%)!important;
+	cursor: pointer;
+	transition: 1s;
+}
+.contact a:hover{
+	background: white !important;
+	color: black !important;
+}
+@media all and (max-width: 768px){
+	.custom-contact{
+		margin-top: 50px !important;
+	}
+	.contact form{
+		margin-bottom: 30px !important;
+	}
+}
+/********************* Contanct css end*************************/
+/***************************************************************/
+/***************************************************************/
+
+/********************* Footer css*******************************/
+/***************************************************************/
+.footer .ex a{
+	height: auto;
+	width: 46px;
+	display: inline-block;
+	line-height: 1.6rem;
+	border-radius: 50%;
+	text-align: center;
+}
+.footer .ex a:hover{
+	background: white !important;
+	transition: .9s;
+}
+.footer .ex a:hover i{
+	color: black !important;
+}
+.custom-f-a a{
+	font-size: 14px;
+	padding: 13px 40px;
+	background: linear-gradient(to right, #16A2E8 0%, #12D8FA 51%, #16A2E8 100%)!important;
+	cursor: pointer;
+	transition: 1s;
+}
+.custom-f-a a:hover{
+	background: white !important;
+	color: black !important;
+}
+@media all and (max-width: 500px){
+	.footer-custom{
+		text-align: center !important;
+	}
+}
+/********************* Footer css end***************************/
+/***************************************************************/
+/**************************************************************/
